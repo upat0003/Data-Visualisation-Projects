@@ -1,23 +1,22 @@
-# Data-Visualisation-Projects
+# Data Visualisation Projects
 
+A collection of data visualisation case studies built primarily in Tableau, covering public-interest datasets across health, sport, agriculture and international development.
 
-SUSTAINABLE DEVELOPMENT GOALS
-Visualization URL:
-https://public.tableau.com/profile/utkarsh5800#!/vizhome/SustainableDevelopmentGoalsPovertyandZeroHunger/Dashboard_SDG?publish=yes
+## Projects
 
-Domain description:
-The domain for this visualization is Sustainable Development Goals introduced by UN in 2015. The main area is focusing on how the poorest countries in the world in 2015 have been influenced by UN’s project. Therefore, there have been range of attributes related to nation’s sustainable area are compared against each other to see how the specific country is impacted after 2015. Moreover, Poverty and Hunger rates are the main topics raised in this study. The interesting trends have been found for specific countries to show which specific variables causes poverty, how food production can be useful to prevent from these issues, how country’s GDP rate can be affected from poverty statistics and last but not least, how hunger rate is spread throughout the world from malnutrition variable’s defined above. The final conclusion is made based on the progress of countries so far and upcoming predictions.
+| Project | Summary | Tools |
+|---|---|---|
+| [Sustainable Development Goals Study](./Sustainable%20Development%20Goals%20Study) | Visual analysis of UN Sustainable Development Goals data, focused on poverty and hunger indicators across countries since 2015 — including GDP, food production and malnutrition relationships. [Live Tableau dashboard](https://public.tableau.com/profile/utkarsh5800#!/vizhome/SustainableDevelopmentGoalsPovertyandZeroHunger/Dashboard_SDG?publish=yes). | Tableau |
+| [Cancer Research Study](./Cancer%20Research%20Study) | Visual exploration of cancer research/incidence data. | Tableau |
+| [World Cup Team Analysis](./World%20Cup%20Team%20Analysis) | Comparative visual analysis of FIFA World Cup team performance data. | Tableau |
+| [Banana Production](./Banana%20Production) | Visual analysis of global banana production and trade trends. | Tableau |
 
-Dataset source: https://data.worldbank.org/topic/poverty
+Each folder contains the project write-up (PDF); the SDG study also links to a published, interactive Tableau dashboard.
 
-The dataset is obtained from world bank dataset. It is divided into seven separate sheets to make it easier to work with in tableau. There was a pivot arrangement for years in the data required as part of pre-processing.
+## Data source
 
-The attributes used for each of these sheets are as below:
+World Bank Open Data (https://data.worldbank.org/topic/poverty) for the SDG study; see individual write-ups for other datasets.
 
-Quantitative attributes:
+## Stack
 
-Poverty headcount ratio (in %), Prevalence of Stunting, Wasting and Underweighting rate (in %), GDP per capita, Food production index, hunger rate (in %)
-
-Categorical Ordinal: Year of each measurement
-
-Categorical Nominal: Indicator name/code (to select categories), Country name/code
+Tableau, with data preparation/pivoting performed ahead of visualisation.
